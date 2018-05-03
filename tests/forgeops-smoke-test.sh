@@ -100,11 +100,11 @@ do
   echo .
   if [ $PASS = true ]; then
      let PASSED+=1
-     echo "=====================================================" >> out.txt
+     echo "===================================" >> out.txt
      echo " - Test $TESTNAME - PASS" >> out.txt
   else
     let FAILED+=1
-    echo "=====================================================" >> out.txt
+    echo "===================================" >> out.txt
     echo " - Test $TESTNAME - FAIL" >> out.txt
     echo " - Details:" >> out.txt
     echo "$RES" >> out.txt
