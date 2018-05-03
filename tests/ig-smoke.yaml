@@ -24,7 +24,7 @@ steps:
     image: 'codefresh/plugin-helm:2.8.2'
     environment:
       - CHART_NAME=helm/openig
-      - RELEASE_NAME_amster=openig
+      - RELEASE_NAME_amster=openig-lee
       - KUBE_CONTEXT=eng-shared@EngineeringDevOps
       - NAMESPACE=${{NAMESPACE}}
       - CHART_REPO_URL=https://storage.googleapis.com/forgerock-charts/
