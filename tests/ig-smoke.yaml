@@ -42,7 +42,7 @@ steps:
 
   RunSmokeTest:
     title: Run smoke tests for IG
-    image: 'r.cfcr.io/lee-baines/smoke-tests:latest'
+    image: 'r.cfcr.io/leebaines/smoke-tests:latest'
     environment:
       - INGRESS_IP=${{INGRESS_IP}}
       - INGRESS_FQDN=${{INGRESS_FQDN}}
